@@ -1,0 +1,109 @@
+
+.res{
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    padding-top: 12px;
+}
+h1{
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    padding: 24px ;
+    font-stretch: extra-expanded;
+}
+h6{
+    color: white;
+    margin: 0px;
+    text-decoration: none;
+    padding: 16px ; 
+}
+.grid{
+    display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap:10px;
+        margin: 25px;
+        justify-content: space-between;
+        padding: 0px;
+}
+.card{
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.06);
+    max-width: none;
+    height: 150px;
+    width: 250px;
+
+}
+h4{
+    color: whitesmoke;
+    margin: 0px;
+    text-decoration: none;
+    padding: 16px ;  
+}
+p{
+    color: whitesmoke;
+    margin: 0px;
+    text-decoration: none;
+    padding: 5px  
+}
+i{
+    z-index: 100px;
+    color:white;
+}
+/* mobile */
+@media(max-width:670px){
+    .grid{
+        display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap:10px;
+            margin: 25px;
+            justify-content: space-between;
+            padding: 0px;
+    }
+}
+/* tablet */
+@media(min-width:970px){
+    .grid{
+        display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap:10px;
+            margin: 25px;
+            justify-content: space-between;
+            padding: 0px;
+    }
+}
+
+/* tablet */
+@media(min-width:1024px){
+    .grid{
+        display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:10px;
+            margin: 25px;
+            justify-content: space-between;
+            padding: 0px;
+    }
+    .card{
+        padding: 20px;
+        border-radius: 12px;
+        background-color:green;
+        max-width: none;
+        height: 150px;
+        width: 250px;
+    
+    }
+}
+/* tablet */
+@media(min-width:2556px){
+    .grid{
+        display: grid;
+            grid-template-columns: repeat(6,1fr);
+            gap:10px;
+            margin: 25px;
+            justify-content: space-between;
+          
+            padding: 0px;
+    }
+
+}

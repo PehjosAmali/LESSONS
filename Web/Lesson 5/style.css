@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(223, 221, 221);
+}
+
+
+.nav{
+    width: 100px;
+    background-color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+}
+
+
+.content{
+    display: block;
+    justify-content: space-between;
+    padding: 5px;
+}
+.aside{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.top{
+    background-color: white;
+    height: 50vh;
+    width: 130vh;
+    margin: 4px;
+    
+}
+.right{
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    margin: 3px;
+}
+.t{
+    background-color: blue;
+    height: 50px;
+    width: 130vh;
+    
+}
+.top>p{
+    margin: 10px;
+}
+
+.right>p{
+    margin: 10px;
+}
+button{
+    border-radius: 45%;
+    border: solid 0.5px;
+    margin: 5px;
+    padding: 10px;
+}
